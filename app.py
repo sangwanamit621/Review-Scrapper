@@ -21,7 +21,7 @@ def index():
         try:
             # Establishing connection with mongodb database
             client = pymongo.MongoClient(
-                "mongodb+srv://amitsangwan:aCvPKOlLvAjw2dkQ@reviewscrapper.yogd0.mongodb.net/ReviewScrapper?retryWrites=true&w=majority")
+                "mongodb+srv://aman:aCdkQ@reviewscrapper.yogd0.mongodb.net/ReviewScrapper?retryWrites=true&w=majority")
             db = client['ReviewScrapper']  # creating cursor for database
 
             # To create collection in mongodb. collection in MongoDB = table in SQL
